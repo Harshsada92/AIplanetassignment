@@ -1,0 +1,58 @@
+.edit-stack-page .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #f0f0f0;
+}
+
+.edit-stack-page .main {
+  display: flex;
+  padding: 2rem;
+}
+
+.component-library-panel,
+.workspace-panel,
+.configuration-panel {
+  flex: 1;
+  padding: 1rem;
+}
+
+.component-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.component-item {
+  padding: 0.5rem;
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.canvas {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.configuration-options {
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+}
+
+.execution-controls {
+  padding: 1rem;
+  text-align: center;
+}
+
+.build-btn {
+  padding: 0.5rem 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

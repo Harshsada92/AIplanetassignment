@@ -1,0 +1,30 @@
+.stack-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.stack-item {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 250px;
+  text-align: left;
+}
+
+.stack-item h3 {
+  margin-top: 0;
+}
+
+.edit-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.9rem;
+  cursor: pointer;
+}

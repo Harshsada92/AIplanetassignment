@@ -1,0 +1,10 @@
+.configuration-panel {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  width: 300px;
+}
+
+.configuration-options label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
